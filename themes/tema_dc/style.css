@@ -1,0 +1,147 @@
+/*
+Theme Name: DanielC Theme
+Description: Tema desarrollado por Daniel Cordero como parte del proyecto de seocontenidos
+Author: DanielC.
+Author URI: https://danielcordero1998.000webhostapp.com/
+Version: 1.0.0
+*/
+.Logo{
+    float: left;
+    margin-left: 16.5%;
+    margin-top: 2%;
+    text-decoration: none;
+    color: #fff;
+    z-index: 10;
+}
+.menu{
+    font-size: 14px;
+    margin-top: 1.1%;
+    float: right;
+    height: 80px;
+    margin-right: 16.5%;
+}
+.ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 0px 0px 20px;
+    height: 80px;
+    line-height: 80px;
+}
+.a_nav{
+    text-decoration: none;
+    color: white;
+}
+.a_dc{
+    color: white !important;
+}
+.archive{
+    color: #1b726f;
+}
+.author-info{
+    border-bottom: 1px solid #24a19c;
+    border-top: 1px solid #24a19c;
+}
+.search-submit{
+    margin-left: 0;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #24a19c;
+    border: 1px solid #595238;
+    transition: 0.2s linear;
+}
+.search-submit:hover{
+    margin-left: 0;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #12504e;
+    border: 1px solid #97917c;
+}
+.widget-title{
+    color: #1b726f;
+}
+.author-details{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.author-description{
+    margin-left: 10px;
+}
+.screen-reader-text{
+    display: none;
+}
+.Navbar{
+  background-color: #24a19c;
+  transition: 0.4s linear;
+  border-bottom: 1px solid #000000;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.sticky{
+    transition: 0.4s linear;
+    background-color: #000000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content{
+    margin-top: 8%;
+    justify-content: space-around;
+    display: flex;
+}
+.columns{
+    width: 35%;
+}
+.post-class{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.post-title{
+    text-decoration: none;
+    transition: 0.1s linear;
+    color: #0b8a85;
+}
+.post-title:hover{
+    text-decoration: none;
+    color: #2ebdb8;
+}
+a{
+    text-decoration: none;
+    color: #24a19c;
+}
+.imagen{
+    width: 250px;
+}
+.pokemon_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 140%;
+}
+.pokemon_container{
+    border-bottom: 1px solid black ;
+}
+.pokemon_name{
+    display: flex;
+    align-items: center
+}
+.pokemon_abilities{
+    display: flex;
+    align-items: center;
+}
